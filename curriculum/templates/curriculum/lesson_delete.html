@@ -1,0 +1,12 @@
+
+
+{% block content %}
+<h3>Are you sure you want to delete ?</h3>
+
+<form method="post">
+    {% csrf_token %}
+    <input type="submit" name="" value="delete">
+    <a href="{% url 'curriculum:curriculum'  % }"> Cancel</a>
+</form>
+
+{% endblock %}
