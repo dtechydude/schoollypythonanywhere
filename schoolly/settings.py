@@ -37,7 +37,7 @@ SECRET_KEY = "e9a5acdb9c9574c13d2de02926890e8a0fd98aaedf4bfb56"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = ['127.0.0.1']
